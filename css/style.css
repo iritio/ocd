@@ -909,7 +909,7 @@ label.error {
 }
 
 #pp-nav.right {
-    right: 0
+    left: 0
 }
 
 #pp-nav li {
@@ -943,7 +943,7 @@ label.error {
 
 @media(min-width:1600px) {
     #pp-nav.right {
-        right: 3.5rem
+        left: 3.5rem
     }
 }
 
@@ -1952,6 +1952,13 @@ a:hover .center-icon i {
     bottom: 0
 }
 
+.social-fixed-right {
+    position: fixed;
+    z-index: 300;
+    right: 15px;
+    bottom: 0
+}
+
 .social-fixed li {
     display: block;
     margin-right: 0;
@@ -1974,13 +1981,28 @@ a:hover .center-icon i {
     z-index: 300
 }
 
+.copyright-fixed-left {
+    position: fixed;
+    left: 15px;
+    bottom: 1.5rem;
+    z-index: 300
+}
+
 @media(min-width:1600px) {
     .social-fixed {
         left: 4.25rem;
         bottom: 2rem
     }
+    .social-fixed-right {
+        right: 4.25rem;
+        bottom: 2rem
+    }
     .copyright-fixed {
         right: 4.25rem;
+        bottom: 3.5rem
+    }
+    .copyright-fixed-left {
+        left: 4.25rem;
         bottom: 3.5rem
     }
 }

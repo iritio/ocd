@@ -1,0 +1,25 @@
+/* MISSION STATEMENT */
+
+.descr-mission{
+    margin-left: 5% !important; margin-right: 5% !important; 
+}
+
+/* FEATURES */
+
+.btn-features{
+    padding: unset; border-radius: unset; font-weight: unset; font-size: unset;
+}
+
+.inside-feature{
+    background-color: #d4f8f2 !important;
+    margin-bottom: 8px;
+}
+
+.inside-feature-coming-soon{
+    background-color: #e8e8e8 !important;
+    margin-bottom: 8px;
+}
+
+.client-feature {
+    width: 5.5rem !important;
+}
