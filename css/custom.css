@@ -23,3 +23,20 @@
 .client-feature {
     width: 5.5rem !important;
 }
+
+.modal-feature {
+    align-self: center;
+    text-align: center;
+}
+
+.modal-feature img {
+    max-width: 75%;
+    max-height: 75%
+}
+
+.modal-feature p {
+    margin-top: 12px;
+    font-size: large;
+    font-weight: lighter;
+    color: rgb(157, 157, 157);
+}
