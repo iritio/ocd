@@ -31,6 +31,7 @@
             },
             onLeave: function() {
                 $('.header').removeClass('header-shadow');
+                $('.hotline').addClass('d-none');
                 if ($('.pp-scrollable.active').scrollTop() > 0) {
                     $('.header').addClass('header-shadow');
                 } else {
