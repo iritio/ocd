@@ -870,7 +870,7 @@ label.error {
 }
 
 .menu-main a:after {
-    content: ".";
+    /* content: "."; */
     opacity: 0;
     display: inline-block;
     transform: translate(2rem, 0);
