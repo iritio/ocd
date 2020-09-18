@@ -1,7 +1,7 @@
-@import 'https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+@import 'https://fonts.googleapis.com/css?family=Nunito';
 @font-face {
     font-family: monumentextended;
-    src: url(../fonts/monumentextended-regular-webfont.woff2) format('woff2'), url(../fonts/monumentextended-regular-webfont.woff) format('woff');
+    src: url(../fonts/Poppins-Bold.ttf) format('woff2'), url(../fonts/Poppins-Regular.ttf) format('woff');
     font-weight: 400;
     font-style: normal
 }
@@ -26,19 +26,19 @@ a.text-primary:hover {
 }
 
 ::selection {
-    background-color: #b99e64;
+    background-color: #3490dc;
     color: #fff;
     text-shadow: none
 }
 
 -webkit-::selection {
-    background-color: #b99e64;
+    background-color: #3490dc;
     color: #fff;
     text-shadow: none
 }
 
 ::-moz-selection {
-    background-color: #b99e64;
+    background-color: #3490dc;
     color: #fff;
     text-shadow: none
 }
@@ -50,7 +50,7 @@ a.text-primary:hover {
 
 ::-webkit-scrollbar-thumb {
     cursor: pointer;
-    background: #b99e64
+    background: #3490dc
 }
 
 @media(min-width:1200px) {
@@ -79,7 +79,7 @@ a.text-primary:hover {
 }
 
 .text-primary {
-    color: #b99e64 !important
+    color: #3490dc !important
 }
 
 .text-success,
@@ -210,13 +210,13 @@ select.form-control {
 label.error {
     margin-top: .5rem;
     margin-bottom: 0;
-    color: #b99e64
+    color: #3490dc
 }
 
 .form-control.error,
 .form-control.error:focus {
-    border-color: #b99e64;
-    color: #b99e64
+    border-color: #3490dc;
+    color: #3490dc
 }
 
 .control-file {
@@ -248,7 +248,7 @@ label.error {
 }
 
 .control-file input.file-path::-moz-placeholder {
-    color: #b99e64;
+    color: #3490dc;
     text-decoration: underline;
     opacity: 1;
     transition: color .3s ease
@@ -259,7 +259,7 @@ label.error {
 }
 
 .control-file input.file-path:-ms-input-placeholder {
-    color: #b99e64;
+    color: #3490dc;
     text-decoration: underline;
     transition: color .3s ease
 }
@@ -269,7 +269,7 @@ label.error {
 }
 
 .control-file input.file-path::-webkit-input-placeholder {
-    color: #b99e64;
+    color: #3490dc;
     text-decoration: underline;
     transition: color .3s ease
 }
@@ -478,7 +478,7 @@ label.error {
     width: 18px;
     height: 18px;
     border-radius: 100%;
-    background-color: #c06451;
+    background-color: #5ca595;
     -webkit-animation: bouncedelay 1.4s infinite ease-in-out both;
     animation: bouncedelay 1.4s infinite ease-in-out both
 }
@@ -860,13 +860,13 @@ label.error {
 
 .menu-main a,
 .menu-main a:hover {
-    color: #1f2044;
+    color: #00bdf4;
     text-decoration: none
 }
 
 .menu-main .active>a,
 .menu-main a:hover {
-    color: #b99e64
+    color: #3490dc
 }
 
 .menu-main a:after {
@@ -938,7 +938,7 @@ label.error {
 }
 
 #pp-nav li .active span {
-    background-color: #b99e64
+    background-color: #3490dc
 }
 
 @media(min-width:1600px) {
@@ -1004,7 +1004,7 @@ label.error {
     font-size: 6vmin;
     font-family: monumentextended, sans-serif;
     line-height: 1;
-    color: #007bff;
+    color: #545b62;
     text-transform: uppercase
 }
 
@@ -1123,7 +1123,7 @@ label.error {
 }
 
 .circle-golden {
-    background-color: #b99e64
+    background-color: #3490dc
 }
 
 .circle-brown {
@@ -2016,7 +2016,7 @@ a:hover .center-icon i {
 .body-bg-dark .slide-num,
 .body-bg-dark .footer .social a,
 .body-copyright-light .copyright {
-    color: rgba(255, 255, 255, .6)
+    color: #999
 }
 
 .body-bg-dark .social a:hover {
@@ -2057,7 +2057,7 @@ a:hover .center-icon i {
 .modal-title {
     font-family: monumentextended, sans-serif;
     font-size: 2rem;
-    color: #b99e64;
+    color: #3490dc;
     text-transform: uppercase
 }
 

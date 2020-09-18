@@ -20,6 +20,16 @@
     margin-bottom: 8px;
 }
 
+.available{
+    color: #3490dc !important;
+    font-weight: bolder !important;
+}
+
+.coming-soon{
+    color: #fc573b !important;
+    font-weight: bolder !important;
+}
+
 .client-feature {
     width: 5.5rem !important;
 }
@@ -30,13 +40,30 @@
 }
 
 .modal-feature img {
-    max-width: 75%;
-    max-height: 75%
+    max-width: 50%;
+    max-height: 50%
 }
 
 .modal-feature p {
     margin-top: 12px;
-    font-size: large;
     font-weight: lighter;
     color: rgb(157, 157, 157);
+}
+
+avatar-circle {
+    border-radius: 50%;
+}
+
+.hotline {
+    bottom: 0;
+    position: fixed;
+    margin: 1em;
+    right: 42px;
+    z-index: 998;
+}
+
+.btn-cta{
+    height: 52px;
+    width: 52px;
+    padding: 10px !important;
 }

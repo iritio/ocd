@@ -23,7 +23,7 @@
         $('.a-pagepiling').pagepiling({
             scrollingSpeed: 280,
             menu: '#menu, #menuMain',
-            anchors: ['Intro', 'Mission', 'Features', 'Contact', 'Join'],
+            anchors: ['Introduction', 'Mission', 'Features', 'Contact', 'Join'],
             loopTop: false,
             loopBottom: false,
             navigation: {
@@ -41,11 +41,18 @@
                 } else {
                     $('body').removeClass('body-copyright-light');
                 }
-                // if ($('.slide-dark-bg').hasClass('active')) {
-                //     $('body').addClass('body-bg-dark');
-                // } else {
-                //     $('body').removeClass('body-bg-dark');
-                // }
+                if ($('.slide-dark-bg').hasClass('active')) {
+                    $('body').addClass('body-bg-dark');
+                } else {
+                    $('body').removeClass('body-bg-dark');
+                }
+
+                if ($('.slide-personal-contacts').hasClass('active')) {
+                    $('.hotline').removeClass('d-none');
+                } else {
+                    $('.hotline').addClass('d-none');
+                }
+
                 $('.a-carousel-projects').trigger('refresh.owl.carousel');
             }
         });
