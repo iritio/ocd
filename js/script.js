@@ -54,6 +54,12 @@
                     $('.hotline').addClass('d-none');
                 }
 
+                if ($('.slide-personal-testimonials').hasClass('active')) {
+                    $('.copyright-fixed-center').removeClass('d-none');
+                } else {
+                    $('.copyright-fixed-center').addClass('d-none');
+                }
+
                 $('.a-carousel-projects').trigger('refresh.owl.carousel');
             }
         });

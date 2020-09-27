@@ -67,3 +67,20 @@ avatar-circle {
     width: 52px;
     padding: 10px !important;
 }
+
+/* Copyright center */
+.copyright-fixed-center {
+    position: fixed;
+    left: 15px;
+    right: 15px;
+    text-align-last: center;
+    bottom: 1.5rem;
+    z-index: 300
+}
+
+.copyright-footer a{
+    padding-left: 7px;
+    padding-right: 7px;
+    color: grey;
+    text-decoration: none;
+}
