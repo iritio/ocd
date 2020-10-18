@@ -14,16 +14,14 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://oneclickdemocracy.com/">
     <meta property="og:title" content="One-Click Democracy">
-    <meta property="og:description"
-        content="OCD is a social media platform focusing on empowering democracy, involving the people in public issues, and overseeing the representatives and government by directly reaching or reminding">
+    <meta property="og:description" content="OCD is a social media platform focusing on empowering democracy, involving the people in public issues, and overseeing the representatives and government by directly reaching or reminding">
     <meta property="og:image" content="https://oneclickdemocracy.com/img/meta_.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://oneclickdemocracy.com/">
     <meta property="twitter:title" content="One-Click Democracy">
-    <meta property="twitter:description"
-        content="OCD is a social media platform focusing on empowering democracy, involving the people in public issues, and overseeing the representatives and government by directly reaching or reminding">
+    <meta property="twitter:description" content="OCD is a social media platform focusing on empowering democracy, involving the people in public issues, and overseeing the representatives and government by directly reaching or reminding">
     <meta property="twitter:image" content="https://oneclickdemocracy.com/img/meta_.png">
 
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -61,7 +59,7 @@
             <div class="header-bg"></div>
             <div class="container-fluid clearfix">
                 <div class="brand">
-                    <a href="#Introduction"><img src="img/logo.png" style="height: 52px;"></a>
+                    <a href="#Introduction"><img src="{{ asset('img/logo.png') }}" style="height: 52px;"></a>
                 </div>
                 <button class="nav-toggle-btn a-nav-toggle">
                     <span class="nav-toggle">
@@ -138,7 +136,7 @@
                     <div class="text-center align-items-center">
                     <div class="row justify-content-center">
                         <div class="col-xl-4 col-lg-5">
-                        <img class="animate-element delay5 fadeZooming" src="img/logo-560.png" alt=""
+                        <img class="animate-element delay5 fadeZooming" src="{{ asset('img/logo-560.png') }}" alt=""
                             style="height: 225px;" />
                         </div>
                     </div>
@@ -173,35 +171,35 @@
                             <a class="btn btn-features" data-toggle="modal" data-target="#prototypeVoxPop">
                             <div
                                 class="clients-photo-item clients-photo-item1 mr-4 ml-4 mb-0  animate-element delay5 fadeInDown client-feature">
-                                <div class="inside inside-feature"><img src="img/icons/069-megaphone.png" alt="" /></div>
+                                <div class="inside inside-feature"><img src="{{ asset('img/icons/069-megaphone.png') }}" alt="" /></div>
                                 <p class="animate-element delay5 fadeInUp">Vox pop</p>
                             </div>
                             </a>
                             <a class="btn btn-features" data-toggle="modal" data-target="#prototypePetition">
                             <div
                                 class="clients-photo-item clients-photo-item1 mr-4 ml-4 mb-0  animate-element delay5 fadeInDown client-feature">
-                                <div class="inside inside-feature"><img src="img/icons/068-mail.png" alt="" /></div>
+                                <div class="inside inside-feature"><img src="{{ asset('img/icons/068-mail.png') }}" alt="" /></div>
                                 <p class="animate-element delay5 fadeInUp">Petition</p>
                             </div>
                             </a>
                             <a class="btn btn-features" data-toggle="modal" data-target="#prototypeCampaigns">
                             <div
                                 class="clients-photo-item clients-photo-item1 mr-4 ml-4 mb-0  animate-element delay5 fadeInDown client-feature">
-                                <div class="inside inside-feature"><img src="img/icons/027-board.png" alt="" /></div>
+                                <div class="inside inside-feature"><img src="{{ asset('img/icons/027-board.png') }}" alt="" /></div>
                                 <p class="animate-element delay5 fadeInUp">Campaigns</p>
                             </div>
                             </a>
                             <a class="btn btn-features" data-toggle="modal" data-target="#prototypePolling">
                             <div
                                 class="clients-photo-item clients-photo-item1 mr-4 ml-4 mb-0  animate-element delay5 fadeInDown client-feature">
-                                <div class="inside inside-feature"><img src="img/icons/016-candidate.png" alt="" /></div>
+                                <div class="inside inside-feature"><img src="{{ asset('img/icons/016-candidate.png') }}" alt="" /></div>
                                 <p class="animate-element delay5 fadeInUp">Polling</p>
                             </div>
                             </a>
                             <a class="btn btn-features" data-toggle="modal" data-target="#prototypeSentimen">
                             <div
                                 class="clients-photo-item clients-photo-item1 mr-4 ml-4 mb-0  animate-element delay5 fadeInDown client-feature">
-                                <div class="inside inside-feature"><img src="img/icons/063-heart.png" alt="" /></div>
+                                <div class="inside inside-feature"><img src="{{ asset('img/icons/063-heart.png') }}" alt="" /></div>
                                 <p class="animate-element delay5 fadeInUp">Sentiment Analysis</p>
                             </div>
                             </a>
@@ -209,7 +207,7 @@
                             <a class="btn btn-features" data-toggle="modal" data-target="#comingsoonDEBATE">
                             <div
                                 class="clients-photo-item clients-photo-item1 mr-4 ml-4 mb-0  animate-element delay5 fadeInDown client-feature">
-                                <div class="inside inside-feature-coming-soon"><img src="img/icons/077-smartphone.png"
+                                <div class="inside inside-feature-coming-soon"><img src="{{ asset('img/icons/077-smartphone.png') }}"
                                     alt="" /></div>
                                 <p class="animate-element delay5 fadeInUp">Live Debate</p>
                             </div>
@@ -217,7 +215,7 @@
                             <a class="btn btn-features" data-toggle="modal" data-target="#comingsoonPRESS">
                             <div
                                 class="clients-photo-item clients-photo-item1 mr-4 ml-4 mb-0  animate-element delay5 fadeInDown client-feature">
-                                <div class="inside inside-feature-coming-soon"><img src="img/icons/007-browser.png" alt="" />
+                                <div class="inside inside-feature-coming-soon"><img src="{{ asset('img/icons/007-browser.png') }}" alt="" />
                                 </div>
                                 <p class="animate-element delay5 fadeInUp">Press Release</p>
                             </div>
@@ -225,7 +223,7 @@
                             <a class="btn btn-features" data-toggle="modal" data-target="#comingsoonREPORTS">
                             <div
                                 class="clients-photo-item clients-photo-item1 mr-4 ml-4 mb-0  animate-element delay5 fadeInDown client-feature">
-                                <div class="inside inside-feature-coming-soon"><img src="img/icons/006-ballot.png" alt="" />
+                                <div class="inside inside-feature-coming-soon"><img src="{{ asset('img/icons/006-ballot.png') }}" alt="" />
                                 </div>
                                 <p class="animate-element delay5 fadeInUp">Performance reports</p>
                             </div>
@@ -302,10 +300,10 @@
                         <h4>Share your voice now!</h4>
                         <div class="row justify-content-center mt-4">
                         <a href="#" class="m-2">
-                            <img src="img/appstore.png" alt="" style="height: 65px;">
+                            <img src="{{ asset('img/appstore.png') }}" alt="" style="height: 65px;">
                         </a>
                         <a href="#" class="m-2">
-                            <img src="img/playstore.png" alt="" style="height: 65px;">
+                            <img src="{{ asset('img/playstore.png') }}" alt="" style="height: 65px;">
                         </a>
                         </div>
                         <!-- <button class="btn btn-success" onclick="location.href='https://irit-io.id'" type="button">Share
@@ -346,11 +344,11 @@
                 <a href="#" class="copyright-footer">About us</a>
                 <a href="#" class="copyright-footer">Blog</a>
                 <a href="https://career.oneclickdemocracy.com" target="_blank">Careers</a>
-                <a href="#" class="copyright-footer">Term & Conditions</a>
+                <a href="{{ route('ketentuan-layanan') }}" class="copyright-footer">Term & Conditions</a>
                 <br/>
-                <a href="#" class="copyright-footer">Community Standards</a>
-                <a href="#" class="copyright-footer">Data & Privacy Policy</a>
-                <a href="#" class="copyright-footer">Help Center</a>
+                <a href="{{ route('standar-komunitas') }}" class="copyright-footer">Community Standards</a>
+                <a href="javascript:(0)" class="copyright-footer">Data & Privacy Policy</a>
+                <a href="javascript:(0)" class="copyright-footer">Help Center</a>
             </div>
             <div class="copyright copyright-fixed-left d-none d-md-block text-left">
                 &copy; OCD 2020<br /> All Rights Reserved
@@ -368,7 +366,7 @@
                 </div>
                 <div class="modal-body modal-feature">
                     <h4 style="color: grey; font-weight: 900;">VOX POP</h4>
-                    <img src="img/prototype/fox-pop.png">
+                    <img src="{{ asset('img/prototype/fox-pop.png') }}">
                     <h4 class="available">Available</h4>
                     <p>You‌ ‌can‌ ‌share‌ ‌your‌ ‌voice‌ ‌about‌ ‌any‌ ‌political‌ ‌or‌ ‌public‌ ‌issues‌ ‌on‌ ‌this‌ ‌feature.‌
                     ‌You‌ ‌are‌ ‌free‌ ‌to‌ ‌speak‌ ‌up,‌ ‌but‌ ‌
@@ -387,7 +385,7 @@
                 </div>
                 <div class="modal-body modal-feature">
                     <h4 style="color: grey; font-weight: 900;">PETITION</h4>
-                    <img src="img/prototype/petisi.png">
+                    <img src="{{ asset('img/prototype/petisi.png') }}">
                     <h4 class="available">Available</h4>
                     <p>‌Encourage‌ ‌the‌ ‌governments‌ ‌or‌ ‌representatives‌ ‌to‌ ‌execute‌ ‌your‌ ‌idea‌ ‌on‌ ‌an‌ ‌issue,‌
                     ‌and‌ ‌make‌ ‌positive‌ ‌changes‌ ‌to‌ ‌
@@ -406,7 +404,7 @@
                 </div>
                 <div class="modal-body modal-feature">
                     <h4 style="color: grey; font-weight: 900;">CAMPAIGNS</h4>
-                    <img src="img/prototype/kampanye.png">
+                    <img src="{{ asset('img/prototype/kampanye.png') }}">
                     <h4 class="available">Available</h4>
                     <p>On this feature, you can create campaigns to collect funds, gather volunteers, and get other support to
                     help people in need, realize your social movements, and even support political candidates. </p>
@@ -424,7 +422,7 @@
                 </div>
                 <div class="modal-body modal-feature">
                     <h4 style="color: grey; font-weight: 900;">POLLING</h4>
-                    <img src="img/prototype/polling.png">
+                    <img src="{{ asset('img/prototype/polling.png') }}">
                     <h4 class="available">Available</h4>
                     <p>When the public’s stance is polarized in relation to a certain issue, this feature will be very useful to
                     know which side the majority stands.
@@ -443,7 +441,7 @@
                 </div>
                 <div class="modal-body modal-feature">
                     <h4 style="color: grey; font-weight: 900;">SENTIMENT ANALYSIS</h4>
-                    <img src="img/prototype/sentimen.png">
+                    <img src="{{ asset('img/prototype/sentimen.png') }}">
                     <h4 class="available">Available</h4>
                     <p>With our big data and artificial intelligence, we provide real time public’s sentiment statistics about
                     specific issues you might want to know.
@@ -462,7 +460,7 @@
                 </div>
                 <div class="modal-body modal-feature ">
                     <h4 style="color: grey; font-weight: 900;">LIVE DEBATE</h4>
-                    <img src="img/prototype/coming-soon.png">
+                    <img src="{{ asset('img/prototype/coming-soon.png') }}">
                     <h4 class="coming-soon">Coming Soon</h4>
                 </div>
             </div>
@@ -478,7 +476,7 @@
                 </div>
                 <div class="modal-body modal-feature ">
                     <h4 style="color: grey; font-weight: 900;">PRESS RELEASE</h4>
-                    <img src="img/prototype/coming-soon.png">
+                    <img src="{{ asset('img/prototype/coming-soon.png') }}">
                     <h4 class="coming-soon">Coming Soon</h4>
                 </div>
             </div>
@@ -494,7 +492,7 @@
                 </div>
                 <div class="modal-body modal-feature ">
                     <h4 style="color: grey; font-weight: 900;">PERFORMANCE REPORTS</h4>
-                    <img src="img/prototype/coming-soon.png">
+                    <img src="{{ asset('img/prototype/coming-soon.png') }}">
                     <h4 class="coming-soon">Coming Soon</h4>
                 </div>
             </div>

@@ -23,24 +23,24 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::get('/index', function () {
     return view('index');
-});
+})->name('index');
 
 Route::get('/ketentuan-layanan', function () {
     return view('ketentuan-layanan');
-});
+})->name('ketentuan-layanan');
 
 Route::get('/standar-komunitas', function () {
     return view('standar-komunitas');
-});
+})->name('standar-komunitas');
 
 Route::get('/pusat-bantuan/mengelola-akun', function () {
     return view('pusat-bantuan/mengelola-akun');
-});
+})->name('mengelola-akun');
 
 Route::get('/pusat-bantuan/menggunakan-ocd', function () {
     return view('pusat-bantuan/menggunakan-ocd');
-});
+})->name('menggunakan-ocd');
 
 Route::get('/career', function () {
     return view('carerr');
-});
+})->name('career');
