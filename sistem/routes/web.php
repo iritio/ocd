@@ -25,6 +25,22 @@ Route::get('/index', function () {
     return view('index');
 });
 
+Route::get('/ketentuan-layanan', function () {
+    return view('ketentuan-layanan');
+});
+
+Route::get('/standar-komunitas', function () {
+    return view('standar-komunitas');
+});
+
+Route::get('/pusat-bantuan/mengelola-akun', function () {
+    return view('pusat-bantuan/mengelola-akun');
+});
+
+Route::get('/pusat-bantuan/menggunakan-ocd', function () {
+    return view('pusat-bantuan/menggunakan-ocd');
+});
+
 Route::get('/career', function () {
     return view('carerr');
 });
