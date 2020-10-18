@@ -7,7 +7,7 @@
     <main id="content" role="main">
         <div class="position-relative">
             <!-- Hero Section -->
-            <div class="bg-img-hero space-2" style="background-image: url(img/hero-bg-2.png);">
+            <div class="bg-img-hero space-2 space-top-3" style="background-image: url(img/hero-bg-2.png);">
                 <div class="container">
                     <div class="row justify-content-end">
                         <div class="col-md-7 col-lg-8">
@@ -25,10 +25,11 @@
                     <div id="stickyBlockStartPoint" class="col-md-5 col-lg-4 position-relative z-index-2">
                         <div class="js-sticky-block card-border" data-hs-sticky-block-options='{
                             "parentSelector": "#stickyBlockStartPoint",
+                            "targetSelector": "#basicLogoAndNav",
                             "breakpoint": "md",
                             "startPoint": "#stickyBlockStartPoint",
                             "endPoint": "#stickyBlockEndPoint",
-                            "stickyOffsetTop": 12,
+                            "stickyOffsetTop": 32,
                             "stickyOffsetBottom": 12
                             }'>
                             <div class="container js-scroll bg-white rouded shadow-lg">

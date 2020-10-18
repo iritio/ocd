@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- ========== MAIN CONTENT ========== -->
-    <main id="content" role="main">
+    <main id="content" role="main" class="space-1">
         <div class="position-relative">
             <!-- Hero Section -->
             <div class="bg-img-hero space-2" style="background-image: url({{ asset('img/hero-bg-2.png') }});">
@@ -25,10 +25,11 @@
                     <div id="stickyBlockStartPoint" class="col-md-5 col-lg-4 position-relative z-index-2">
                         <div class="js-sticky-block card-border" data-hs-sticky-block-options='{
                             "parentSelector": "#stickyBlockStartPoint",
+                            "targetSelector": "#basicLogoAndNav",
                             "breakpoint": "md",
                             "startPoint": "#stickyBlockStartPoint",
                             "endPoint": "#stickyBlockEndPoint",
-                            "stickyOffsetTop": 12,
+                            "stickyOffsetTop": 32,
                             "stickyOffsetBottom": 12
                             }'>
                             <div class="container js-scroll bg-white rouded shadow-lg">
@@ -55,11 +56,11 @@
         </div>
 
         <!-- Description Section -->
-        <div class=" container space-top-2 space-top-md-1">
+        <div class="container space-top-2 space-top-md-1">
             <div class="row justify-content-end">
                 <!-- <div class="col-md-5 col-lg-4"></div> -->
                 <div class="col-md-7 col-lg-8">
-                    <div id="">
+                    <div class="space-1">
                         <h3>Selamat Datang di OCD!</h3>
                         <p style="text-align: justify;">
                         One Click Democracy (OCD) adalah sebuah layanan aplikasi yang dikembangkan oleh PT. Teknologi Demokrasi Indonesia yang menyediakan teknologi dan layanan untuk memudahkan masyarakat dan organisasi agar dapat terhubung, menyampaikan aspirasi, dan mengawasi pemerintahan baik eksekutif, legislatif dan yudikatif secara bebas dan aman, dengan tetap patuh pada Undang-Undang Dasar Negara Republik Indonesia dan aturan hukum yang diatur di bawahnya. Ketentuan ini mengatur pengguna layanan atau Anda dalam menggunakan layanan yang Kami tawarkan, dan merupakan suatu perjanjian yang mengikat secara sah antara Anda dan Kami.

@@ -1,8 +1,8 @@
-<header id="headerBasic" class="header">
+<header id="header" class="header header-sticky-top">
     <div class="header-section">
-        <div id="basicLogoAndNav" class="container">
+        <div id="basicLogoAndNav" class="container pt-2 pb-2">
             <!-- Nav -->
-            <nav class="js-mega-menu navbar navbar-expand-lg mt-1">
+            <nav class="js-mega-menu navbar navbar-expand-lg">
                 <!-- Logo -->
                 <a class="navbar-brand" href="{{ route('index') }}" aria-label="OCD">
                     <img src="{{ asset('img/logo.png') }}" alt="Logo" style="width: 105px;">

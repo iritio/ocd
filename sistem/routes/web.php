@@ -13,15 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('index');
 })->name('index');
 
@@ -41,6 +41,7 @@ Route::get('/pusat-bantuan/menggunakan-ocd', function () {
     return view('pusat-bantuan/menggunakan-ocd');
 })->name('menggunakan-ocd');
 
-Route::get('/career', function () {
-    return view('carerr');
-})->name('career');
+// Career dipake di lain
+// Route::get('/career', function () {
+//     return view('carerr');
+// })->name('career');
