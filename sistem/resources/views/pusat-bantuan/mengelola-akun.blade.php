@@ -22,7 +22,7 @@
     <main id="content" role="main">
         <div class="position-relative">
             <!-- Hero Section -->
-            <div class="bg-img-hero space-2" style="background-image: url({{ asset('img/hero-bg-2.png') }});">
+            <div class="bg-img-hero space-2 space-top-3" style="background-image: url({{ asset('img/hero-bg-2.png') }});">
                 <div class="container">
                     <div class="row justify-content-end">
                         <div class="col-md-7 col-lg-8">
@@ -35,15 +35,16 @@
             <!-- End Hero Section -->
 
             <!-- Sidebar Content Section -->
-            <div class="container space-top-md-2 position-md-absolute top-0 right-0 left-0">
+            <div class="container space-top-3 position-md-absolute top-0 right-0 left-0">
                 <div class="row justify-content-start">
                     <div id="stickyBlockStartPoint" class="col-md-5 col-lg-4 position-relative z-index-2">
                         <div class="js-sticky-block card-border" data-hs-sticky-block-options='{
                             "parentSelector": "#stickyBlockStartPoint",
+                            "targetSelector": "#basicLogoAndNav",
                             "breakpoint": "md",
                             "startPoint": "#stickyBlockStartPoint",
                             "endPoint": "#stickyBlockEndPoint",
-                            "stickyOffsetTop": 12,
+                            "stickyOffsetTop": 32,
                             "stickyOffsetBottom": 12
                             }'>
                             <div class="container js-scroll bg-white rouded shadow-lg">
@@ -367,7 +368,7 @@
                 <!-- <div class="col-md-5 col-lg-4"></div> -->
                 <div class="col-md-7 col-lg-8">
                     <!-- Akun dan Kata Sandi -->
-                    <div id="akun-dan-kata-sandi">
+                    <div id="akun-dan-kata-sandi" class="space-1">
                         <div id="akun-login">
                             <h3>Akun dan Kata Sandi</h3>
                             <br>
@@ -454,9 +455,8 @@
                         </div>
                     </div>
                     <!-- Profil dan pengatuan anda -->
-                    <div id="profil-pengaturan-anda">
+                    <div id="profil-pengaturan-anda" class="space-1">
                         <div id="profil-edit-profil">
-                            <br>
                             <h3>Profil dan Pengaturan Anda</h3>
                             <br>
                             <h5>1. Edit Profil</h5>
@@ -531,7 +531,7 @@
                         </div>
                     </div>
                     <!-- Nama di ocd -->
-                    <div id="nama-di-ocd">
+                    <div id="nama-di-ocd" class="space-1">
                         <div id="nama-mengonfirmasi-nama">
                             <br>
                             <h3>Nama di One Click Democracy</h3>
@@ -556,8 +556,7 @@
                         </div>
                     </div>
                     <!-- Mengamankan akun anda -->
-                    <div id="kiat-dan-fitur-keamanan">
-                        <br>
+                    <div id="kiat-dan-fitur-keamanan" class="space-1">
                         <h3>Mengamankan Akun Anda</h3>
                         <br>
                         <h5>1. Kiat dan Fitur Keamanan</h5>
@@ -578,7 +577,7 @@
                         </ul>
                     </div>
                     <!-- Notifikasi -->
-                    <div id="notifikasi">
+                    <div id="notifikasi" class="space-1">
                         <div id="pemberitahuan-otomatis-email-dan-sms">
                             <br>
                             <h3>Notifikasi</h3>
@@ -624,8 +623,7 @@
                         </div>
                     </div>
                     <!-- Referensi iklan -->
-                    <div id="referensi-iklan">
-                        <br>
+                    <div id="referensi-iklan" class="space-1">
                         <h3>Referensi Iklan</h3>
                         <br>
                         <h5>1. Referensi Iklan</h5>
@@ -633,9 +631,8 @@
                         <p>Preferensi iklan Anda memungkinkan Anda melihat, meninjau dan mengatur preferensi yang kami buat untuk Anda berdasarkan informasi profil Anda, minat Anda, tindakan yang Anda ambil di One Click Deocracy, serta situs web dan aplikasi yang Anda gunakan diluar One Click Democracy. Dengan mengubah preferensi iklan Anda akan mempengaruhi iklan yang Anda lihat, namun tidak mengubah total iklan yang Anda lihat. Jika Anda tidak ingin One Click Democracy menggunakan informasi aktivitas Anda di situs web atau Aplikasi diluar One Click Democracy untuk menampilkan iklan, Anda dapat menolaknya dari pengaturan Anda.</p>
                     </div>
                     <!-- Menonaktifkan atau menghapus akun -->
-                    <div id="menonaktifkan-menghapus-akun">
+                    <div id="menonaktifkan-menghapus-akun" class="space-1">
                         <div id="perbedaan-menonaktifkan-menghapus-akun">
-                            <br>
                             <h3>Menonaktikan atau Menghapus Akun</h3>
                             <br>
                             <h5>1. Perbedaan</h5>

@@ -11,6 +11,23 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('img/logo-560.png') }}">
+    
+    <meta name="description"
+        content="OCD is a social media platform focusing on empowering democracy, involving the people in public issues, and overseeing the representatives and government by directly reaching or reminding">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oneclickdemocracy.com/">
+    <meta property="og:title" content="@yield('title') One-Click Democracy">
+    <meta property="og:description" content="OCD is a social media platform focusing on empowering democracy, involving the people in public issues, and overseeing the representatives and government by directly reaching or reminding">
+    <meta property="og:image" content="https://oneclickdemocracy.com/img/meta_.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://oneclickdemocracy.com/">
+    <meta property="twitter:title" content="@yield('title')  One-Click Democracy">
+    <meta property="twitter:description" content="OCD is a social media platform focusing on empowering democracy, involving the people in public issues, and overseeing the representatives and government by directly reaching or reminding">
+    <meta property="twitter:image" content="https://oneclickdemocracy.com/img/meta_.png">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">

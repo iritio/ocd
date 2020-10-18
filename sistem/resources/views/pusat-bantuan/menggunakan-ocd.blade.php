@@ -4,10 +4,16 @@
     
 @section('navbar')
     <li class="navbar-nav-item">
+        <a class="nav-link" href="{{ route('menggunakan-ocd') }}">Menggunakan OCD</a>
+    </li>
+    <li class="navbar-nav-item">
         <a class="nav-link" href="{{ route('mengelola-akun') }}">Mengelola Akun</a>
     </li>
     <li class="navbar-nav-item">
-        <a class="nav-link" href="{{ route('menggunakan-ocd') }}">Menggunakan OCD</a>
+        <a class="nav-link" href="javascript:(0)">Privasi dan Keamanan</a>
+    </li>
+    <li class="navbar-nav-item">
+        <a class="nav-link" href="javascript:(0)">Kebijakan dan Pelaporan</a>
     </li>
 @endsection
 
@@ -16,7 +22,7 @@
     <main id="content" role="main">
         <div class="position-relative">
             <!-- Hero Section -->
-            <div class="bg-img-hero space-2" style="background-image: url({{ asset('img/hero-bg-2.png') }});">
+            <div class="bg-img-hero space-2 space-top-3" style="background-image: url({{ asset('img/hero-bg-2.png') }});">
                 <div class="container">
                     <div class="row justify-content-end">
                         <div class="col-md-7 col-lg-8">
@@ -29,15 +35,16 @@
             <!-- End Hero Section -->
 
             <!-- Sidebar Content Section -->
-            <div class="container space-top-md-2 position-md-absolute top-0 right-0 left-0">
+            <div class="container space-top-3 position-md-absolute top-0 right-0 left-0">
                 <div class="row justify-content-start">
                     <div id="stickyBlockStartPoint" class="col-md-5 col-lg-4 position-relative z-index-2">
                         <div class="js-sticky-block card-border" data-hs-sticky-block-options='{
                             "parentSelector": "#stickyBlockStartPoint",
+                            "targetSelector": "#basicLogoAndNav",
                             "breakpoint": "md",
                             "startPoint": "#stickyBlockStartPoint",
                             "endPoint": "#stickyBlockEndPoint",
-                            "stickyOffsetTop": 12,
+                            "stickyOffsetTop": 32,
                             "stickyOffsetBottom": 12
                             }'>
                             <div class="container js-scroll bg-white rouded shadow-lg">
@@ -194,7 +201,7 @@
                 <!-- <div class="col-md-5 col-lg-4"></div> -->
                 <div class="col-md-7 col-lg-8">
                     <!-- Section One -->
-                    <div id="akun">
+                    <div id="akun" class="space-1">
                         <div id="membuat-akun">
                             <h3>Akun</h3>
                             <br>
@@ -302,10 +309,10 @@
                         </div>
                     </div>
                     <!-- Section Two -->
-                    <div id="pertemanan">
+                    <div id="pertemanan" class="space-1">
                         <div id="">
                             <br>
-                            <h3>Pertemanan</h3>
+                            <h3>Pertemanan</h3> <hr>
                             <br>
                                 <p>Pertemanan di One Click Democracy membantu Anda agar tetap berhubung dengan orang yang penting bagi Anda. menambahkan teman berarti&nbsp; Anda mungkin melihat aktivitas satu sama lain di beranda.&nbsp;</p>
                                 <p>Jika Anda ingin menambahkan teman di One Click Democracy, ingat bahwa:</p>
@@ -318,7 +325,7 @@
                         </div>
                     </div>
                     <!-- Section Three -->
-                    <div id="beranda">
+                    <div id="beranda" class="space-1">
                         <div id="cara-kerja-kabar-beranda">
                             <br>
                             <h3>Halaman Beranda Anda</h3>
@@ -403,7 +410,7 @@
                         </div>
                     </div>
                     <!-- Section Four -->
-                    <div id="">
+                    <div id="" class="space-1">
                         <div id="cara-kerja-pencarian">
                             <br>
                             <h3>Pencarian</h3>
