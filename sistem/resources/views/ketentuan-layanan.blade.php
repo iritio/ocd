@@ -363,7 +363,7 @@
       <div class="col-md-7 col-lg-8 space-bottom-1">
         <div class="card border box-shadow">
         <div class="card-header alert alert-primary border-0">
-          <h3 class="card-heading text-white">Ketentuan Layanan</h3>
+          <h3 class="card-heading text-white">Ketentuan Layanan Petisi</h3>
         </div>
         <div class="card-body">
         <div id="petisi-sebelum-dibuat">
