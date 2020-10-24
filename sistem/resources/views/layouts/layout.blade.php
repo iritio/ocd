@@ -11,9 +11,8 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('img/logo-560.png') }}">
-    
-    <meta name="description"
-        content="OCD is a social media platform focusing on empowering democracy, involving the people in public issues, and overseeing the representatives and government by directly reaching or reminding">
+
+    <meta name="description" content="OCD is a social media platform focusing on empowering democracy, involving the people in public issues, and overseeing the representatives and government by directly reaching or reminding">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -64,6 +63,7 @@
     <!-- <script src="{{ asset('assets/vendor/hs-go-to/dist/hs-go-to.min.js') }}"></script> -->
     <script src="{{ asset('assets/vendor/hs-unfold/dist/hs-unfold.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/hs-show-animation/dist/hs-show-animation.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/fancybox/dist/jquery.fancybox.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/clipboard/dist/clipboard.min.js') }}"></script>
@@ -91,6 +91,11 @@
                 var fancybox = $.HSCore.components.HSFancyBox.init($(this));
             });
 
+            // initialization of show animations
+            $('.js-animation-link').each(function() {
+                var showAnimation = new HSShowAnimation($(this)).init();
+            });
+
             // initialization of sticky blocks
             $('.js-sticky-block').each(function() {
                 var stickyBlock = new HSStickyBlock($(this)).init();
@@ -113,4 +118,5 @@
         if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="assets/vendor/polifills.js"><\/script>');
     </script>
 </body>
+
 </html>
