@@ -341,14 +341,14 @@
                 </li>
             </ul>
             <div class="copyright copyright-footer copyright-fixed-center text-center d-none">
-                <a href="#" class="copyright-footer">About us</a>
-                <a href="#" class="copyright-footer">Blog</a>
+                <a href="javascript:(0)" class="copyright-footer">About us</a>
+                <a href="javascript:(0)" class="copyright-footer">Blog</a>
                 <a href="https://career.oneclickdemocracy.com" target="_blank">Careers</a>
                 <a href="{{ route('ketentuan-layanan') }}" class="copyright-footer">Term & Conditions</a>
                 <br/>
                 <a href="{{ route('standar-komunitas') }}" class="copyright-footer">Community Standards</a>
                 <a href="javascript:(0)" class="copyright-footer">Data & Privacy Policy</a>
-                <a href="javascript:(0)" class="copyright-footer">Help Center</a>
+                <a href="{{ route('pusat-bantuan') }}" class="copyright-footer">Help Center</a>
             </div>
             <div class="copyright copyright-fixed-left d-none d-md-block text-left">
                 &copy; OCD 2020<br /> All Rights Reserved

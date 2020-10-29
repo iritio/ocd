@@ -33,6 +33,10 @@ Route::get('/standar-komunitas', function () {
     return view('standar-komunitas');
 })->name('standar-komunitas');
 
+Route::get('/pusat-bantuan', function () {
+    return view('pusat-bantuan/index');
+})->name('pusat-bantuan');
+
 Route::get('/pusat-bantuan/mengelola-akun', function () {
     return view('pusat-bantuan/mengelola-akun');
 })->name('mengelola-akun');
