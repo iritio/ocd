@@ -31,10 +31,10 @@
                     <!-- Text/Links -->
                     <p class="font-size-1 text-dark">
                         Topik populer:
-                        <a class="link ml-1" href="#">login akun,</a>
-                        <a class="link" href="#">verifikasi akun,</a>
-                        <a class="link ml-1" href="#">mengonfirmasi nama,</a>
-                        <a class="link ml-1" href="#">fitur keamanan,</a>
+                        <a class="link ml-1" href="{{ route('mengelola-akun') }}/#akun-login">login akun,</a>
+                        <a class="link" href="{{ route('menggunakan-ocd') }}/#verifikasi-akun">verifikasi akun,</a>
+                        <a class="link ml-1" href="{{ route('mengelola-akun') }}/#nama-mengonfirmasi-nama">mengonfirmasi nama,</a>
+                        <a class="link ml-1" href="{{ route('mengelola-akun') }}/#kiat-dan-fitur-keamanan">kiat dan fitur keamanan,</a>
                     </p>
                     <!-- End Text/Links -->
                 </div>
