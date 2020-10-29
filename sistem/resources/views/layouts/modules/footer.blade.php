@@ -14,11 +14,11 @@
                         </li>
                         <li class="nav-item opacity mx-3">&#47;</li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('menggunakan-ocd') }}">Pusat Bantuan</a>
+                            <a class="nav-link" href="{{ route('pusat-bantuan') }}">Pusat Bantuan</a>
                         </li>
                         <li class="nav-item opacity mx-3">&#47;</li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Privacy &amp; Policy</a>
+                            <a class="nav-link" href="javascript:(0)">Privacy &amp; Policy</a>
                         </li>
                     </ul>
                     <!-- End Nav Link -->
