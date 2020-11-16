@@ -302,7 +302,7 @@
                         <a href="#" class="m-2">
                             <img src="{{ asset('img/appstore.png') }}" alt="" style="height: 65px;">
                         </a>
-                        <a href="bit.ly/OCDbeta" class="m-2">
+                        <a href="https://bit.ly/OCDbeta" class="m-2">
                             <img src="{{ asset('img/playstore.png') }}" alt="" style="height: 65px;">
                         </a>
                         </div>
